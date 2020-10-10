@@ -1,4 +1,4 @@
-# API PickUp
+# Foobar
 
 API PickUp
 
@@ -6,6 +6,24 @@ API PickUp
 
 jdk version 1.8
 maven 3.6.3
+
+## Dependencias
+
+```xml
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+<dependency>
+	<groupId>com.h2database</groupId>
+	<artifactId>h2</artifactId>
+	<scope>runtime</scope>
+</dependency>
+```
 
 ## Installation
 
